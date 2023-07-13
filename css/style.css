@@ -7,7 +7,7 @@ body{
     max-width:1260px;
     margin:auto;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(54, 16, 116);
+    background-color:rgb(62, 198, 240);
 }
 #principal{
     display:flex;
@@ -49,8 +49,8 @@ header{
     justify-content: space-between;
     height:100px;
     text-align:center;
-    background-color:rgb(54, 16, 116);
-    color:white;
+    background-color:rgb(49, 169, 206);
+    color:rgb(51, 50, 50);
     width:100%;
     border-radius: 5px;
     min-width:300px;
@@ -61,16 +61,17 @@ header{
     border:1px solid grey;
 }
 header #titulo{
+    text-shadow: 1px 1px 3px white;
     text-align:center;
     margin-left:10%;
     
 }
 header #titulo h1{
     margin-top:9px;
-    text-shadow:1px 1px 3px rgb(61, 60, 60);
+    text-shadow:1px 1px 3px rgb(247, 244, 244);
 }
 header #titulo p{
-    text-shadow:1px 1px 3px rgb(61, 60, 60);
+    text-shadow:1px 1px 3px rgb(253, 252, 252);
     margin-top:12px;
 }
 #menu{
@@ -87,15 +88,15 @@ header li{
     color:rgb(255, 255, 255);
 }
 header li > a{
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(117, 116, 116);
     padding:5px 10px;
     text-decoration:none;
     border-radius:2px;
     border:1px solid white;
-    color:rgb(29, 28, 28);
+    color:rgb(245, 240, 240);
     font-size: 0.9em;
     text-shadow:1px 1px 1px rgb(56, 56, 56);
-    color:rgb(51, 123, 151);
+    color:rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
