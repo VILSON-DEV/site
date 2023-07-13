@@ -83,19 +83,19 @@ header li{
     display:inline-block;
     list-style:none;
     padding:5px;
-    font-weight: 500;
+    font-weight: 600;
     color:rgb(255, 255, 255);
 }
 header li > a{
-    background-color:rgb(54, 53, 53);
+    background-color:rgb(255, 255, 255);
     padding:5px 10px;
     text-decoration:none;
     border-radius:2px;
     border:1px solid white;
     color:rgb(29, 28, 28);
     font-size: 0.9em;
-    text-shadow:1px 1px 1px rgb(37, 37, 37);
-    color:white;
+    text-shadow:1px 1px 1px rgb(56, 56, 56);
+    color:rgb(51, 123, 151);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
