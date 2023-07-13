@@ -7,6 +7,7 @@ body{
     max-width:1260px;
     margin:auto;
     font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(54, 16, 116);
 }
 #principal{
     display:flex;
@@ -23,7 +24,7 @@ body{
    justify-items: center;
    max-width: 1260px;
    margin:auto;
-   margin-top:20px;
+   margin-top:120px;
 
 }
 .produto{
@@ -31,7 +32,7 @@ body{
     height:300px;
     text-align:center;
     border:1px solid rgb(28, 30, 173);
-    
+    background-color: white;
     padding:10px;
 }
 .produto p{
@@ -54,6 +55,7 @@ header{
     border-radius: 5px;
     min-width:300px;
     width:1230px;
+    position:fixed;
 
 }
 header #titulo{
@@ -76,25 +78,26 @@ header li{
     display:inline-block;
     list-style:none;
     padding:5px;
-    font-weight: 700;
+    font-weight: 500;
     color:rgb(255, 255, 255);
 }
 header li > a{
-    background-color:rgb(150, 147, 147);
+    background-color:rgb(54, 53, 53);
     padding:5px;
     text-decoration:none;
     border-radius:2px;
     border:1px solid white;
     color:rgb(29, 28, 28);
     font-size: 0.9em;
-    text-shadow:1px 1px 1px rgb(136, 134, 134);
+    text-shadow:1px 1px 1px rgb(37, 37, 37);
     color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 header li a:hover{
     background-color:rgb(66, 66, 66);
     color:white;
-    font-weight: 700;
+    font-weight: 500;
 }
 footer{
     margin-top:10px;
