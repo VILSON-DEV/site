@@ -114,6 +114,7 @@ footer{
     max-width:1230px;
     text-align:center;
     padding:5px;
+    text-shadow:1px 1px 1px rgb(54, 54, 54);
 }
 @media screen and (max-width:1247px){
     header{
