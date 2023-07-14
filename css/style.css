@@ -5,6 +5,7 @@
 }
 body{
     max-width:1260px;
+    min-width:320px;
     margin:auto;
     font-family: Arial, Helvetica, sans-serif;
     background-color:rgb(62, 198, 240);
@@ -125,12 +126,37 @@ footer{
     }
 }
 @media screen and (max-width:680px){
+    #primeira{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+        grid-template-rows: 200px 200px;
+        
+    }
+    .produto{
+        min-width: 200px;
+        width:100%;
+        height:200px;
+        text-align:center;
+        border:1px solid rgb(28, 30, 173);
+        background-color: white;
+        padding:10px;
+        margin:5px;
+        margin-bottom:0px;
+    }
+    .produto img{
+        width:150px;
+        height:100px;
+    }
+    header #titulo h2{
+        font-size: 1rem;
+        margin-top:9px;
+        text-shadow:1px 1px 3px rgb(90, 90, 90);
+    }
     header{
         justify-content: center;
         font-size: 0.8em;
         height:100px;
         margin-bottom:0px;
-        width:300px;
+        width:100%;
     }
     header #menu{
         margin-bottom:10px;
@@ -158,7 +184,44 @@ footer{
 }
 @media screen and (max-width:611px){
     header{
-        width:300px;
+        width:100%;
     }
+}
+@media screen and (max-width:427px){
+    #primeira{
+        grid-template-columns: repeat(auto-fit, minmax(320px, 320px));
+        grid-template-rows: 300px 300px;
+        min-width: 360px;
+    }
+    .produto{
+        min-width:360px;
+        width:100%;
+        height:300px;
+        text-align:center;
+        border:1px solid rgb(28, 30, 173);
+        background-color: white;
+        padding:10px;
+        margin:5px;
+        margin-bottom:0px;
+    }
+    .produto img{
+        width:200px;
+        height:200px;
+    }
+    header{
+        min-width: 340px;
+    }
+}
+@media screen and (max-width:637px){
+    #primeira{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+        grid-template-rows: 200px 200px;
+    }
+}
+@media screen and (max-width:526px){
+    #primeira{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+        grid-template-rows: 200px 200px;
+    }  
 }
     
